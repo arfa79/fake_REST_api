@@ -1,6 +1,12 @@
 from django.urls import path
-from .views import ItemList
-
+from . import views
+handler404 = 'fake_rest_app.views.custom_404'
 urlpatterns = [
-    path('api/items/', ItemList.as_view(), name='item-list'),
+    # API views
+    path('api/items/', views.ItemList.as_view(), name='item-list'),
+
+    # Index view for rendering the HTML template
+    path('', views.index, name='index'),
+    
+    path('404/', views.custom_404, name='custom-404'),
 ]
