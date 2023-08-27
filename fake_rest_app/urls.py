@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
+
 handler404 = 'fake_rest_app.views.custom_404'
 urlpatterns = [
     # API views
