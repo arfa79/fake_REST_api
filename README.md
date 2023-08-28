@@ -1,5 +1,19 @@
 # Fake REST API with Django
 
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Setup](#setup)
+- [Installation](#installation)
+- [Install Dependencies](#install-dependencies)
+- [API Endpoints](#api-endpoints)
+- [Management Panel](#management-panel)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
 This is a simple implementation of a Fake REST API using Django, designed to provide a basic understanding of creating a RESTful API, working with a database, and adding user authentication.
 
 ## Features
@@ -39,9 +53,7 @@ On Windows:
 
     venv\Scripts\activate
 
-Install Dependencies:
-
-
+## Install Dependencies:
 
 pip install -r requirements.txt
 
@@ -61,13 +73,13 @@ Run the Development Server:
 
     Open your browser and navigate to http://127.0.0.1:8000/admin/ to log in with the superuser credentials.
 
-API Endpoints
+## API Endpoints
 
     List items: /api/items/
     Create a new item: /api/items/
     Retrieve, update, or delete an item: /api/items/<item_id>/
 
-Management Panel
+## Management Panel
 
 The management panel allows authenticated users to interact with the API data through a user-friendly interface.
 
@@ -76,9 +88,9 @@ The management panel allows authenticated users to interact with the API data th
     Access the list of items.
     Create, update, or delete items.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you find a bug or have an improvement suggestion, please open an issue or create a pull request.
-License
+## License
 
 This project is licensed under the GPL3 License.
