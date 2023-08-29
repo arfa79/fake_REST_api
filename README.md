@@ -55,15 +55,15 @@ On Windows:
 
 ## Install Dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Apply Database Migrations:
 
-python manage.py migrate
+    python manage.py migrate
 
 Create a Superuser:
 
-python manage.py createsuperuser
+    python manage.py createsuperuser
 
 Run the Development Server:
 
